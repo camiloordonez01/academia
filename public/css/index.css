@@ -1,0 +1,172 @@
+@font-face {
+    font-family: Sarala;
+    src: url('/font/Sarala/Sarala-Regular.ttf');
+}
+@font-face {
+    font-family: Palanquin;
+    src: url('/font/Palanquin/Palanquin-Regular.ttf');
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Palanquin,sans-serif;
+}
+body{
+    font-family: Sarala,sans-serif;
+}
+.icono-menu{
+    color:#F7BE2C;
+    width: 1.25em !important;
+    font-size: 22px;
+    line-height: .75em;
+    margin-right: 10px;
+}
+.menu{
+    background-color: #42424B;
+    color: white;
+    font-size: 16px;
+}
+.menu a{
+    color: white;
+}
+.mas{
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: .25rem;
+    background-color: #42424B;
+}
+.active{
+    color:#F7BE2C !important;
+    background-color: transparent !important;
+}
+.boton-principal{
+    color:#F7BE2C !important;
+    background-color: #42424B;
+    border-color: #42424B;
+}
+.boton-principal:hover{
+    color:#42424B !important;
+    border-color: #F7BE2C;
+    background-color: #F7BE2C;
+}
+.boton-principal2{
+    color:#42424B !important;
+    border-color: #F7BE2C;
+    background-color: #F7BE2C;
+}
+.boton-principal2:hover{
+    color:#F7BE2C !important;
+    background-color: #42424B;
+    border-color: #42424B;
+}
+.footer{
+    background-color: #42424B;
+    padding-left:10px;
+    padding-right:10px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+.listaTemas{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #2c3e50;
+    border-left: 1px solid #2c3e50;
+    border-right: 1px solid #2c3e50;
+    border-radius: 5px;
+}
+.listaTemas li{
+    padding-left: 20px;
+    padding-top: 5px;
+    border-bottom: 1px solid #2c3e50;
+}
+.listaTemas li.active{
+    background-color: #42424B !important;
+    color: #F7BE2C;
+}
+
+.answer{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.answer ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.answer ul li{
+    cursor: pointer;
+    width: 100%;
+    border: 1px solid #2c3e50;
+    color: #2c3e50;
+    border-radius: 28px;
+    margin: 1rem auto;
+    display: block;
+    padding: .43rem .75rem;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding;
+    background-clip: padding-box;
+    text-align: center;
+}
+
+.correcta{
+    background-color: #90ee90;
+}
+.incorrecta{
+    background-color: #f08080;
+}
+
+.new-comment{
+    background-color: #42424B;
+    color: #fff;
+    padding: .15rem 1.25rem;
+}
+
+.swiper-button-next, .swiper-button-prev {
+    top: 15% !important;
+    padding: 60px 40px;
+    outline: 0;
+}
+.tooltip{
+    font-size:12px;
+}
+.desactive{
+    background-color: rgb(239, 239, 239) !important;
+    border: 1px solid rgb(118, 118, 118) !important;
+    color: black !important;
+}
+.tableDocumentoView{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid rgba(0,0,0,.125);
+    border-left: 1px solid rgba(0,0,0,.125);
+    border-right: 1px solid rgba(0,0,0,.125);
+    border-radius: 5px;
+}
+.tableDocumentoView li{
+    padding: 12px 20px;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    
+}
+.tableDocumentoView a{
+    color: #42424B;
+}
+.tableDocumentoView a:hover{
+    color: #F7BE2C;
+}
+.tableDocumentoView svg,.tableDocumentoView i{
+    margin-right: 10px !important;
+    font-size: 20px;
+}
+.activeLi{
+    background-color: #42424B;
+    color: #F7BE2C;
+    
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.nav-item{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
